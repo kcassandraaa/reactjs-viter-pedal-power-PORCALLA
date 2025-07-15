@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../../partials/Header";
 import Footer from "../../partials/Footer";
 import { Link } from "react-router-dom";
-import CardDiscipline from "../../partials/CardFeature";
 import CardFeature from "../../partials/CardFeature";
 import CardEvent from "../../partials/CardEvent";
 
@@ -17,7 +16,7 @@ const Home = () => {
             <div className="relative h-screen">
               <div className="absolute inset-0 bg-black opacity-40"></div>
               <img
-                src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
+                src="./images/home-banner.webp"
                 alt="Cycling hero"
                 className="w-full h-full object-cover"
               />
@@ -63,9 +62,7 @@ const Home = () => {
               <div className="grid md:grid-cols-2 gap-12">
                 {/* Road Biking Card */}
                 <CardFeature
-                  src={
-                    "https://images.unsplash.com/photo-1531045535792-b515d59c3d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-                  }
+                  src={"./images/airplane.webp"}
                   alt={"Road biking"}
                   title={"Road Biking"}
                   description={"Speed, endurance, and the open road"}
@@ -76,9 +73,7 @@ const Home = () => {
 
                 {/* Mountain Biking Card */}
                 <CardFeature
-                  src={
-                    "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-                  }
+                  src={"./images/mountain-bike.webp"}
                   alt={"Mountain biking"}
                   title={"Mountain Biking"}
                   description={"Trails, adrenaline, and outdoor adventure"}
@@ -103,9 +98,7 @@ const Home = () => {
                 <div className="grid md:grid-cols-3 gap-8">
                   {/* Event 1 */}
                   <CardEvent
-                    src={
-                      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    src={"./images/cake.webp"}
                     alt={"Alpine Challenge"}
                     title={"Alpine Challenge"}
                     bgColor={"bg-green-900"}
@@ -117,9 +110,7 @@ const Home = () => {
 
                   {/* Event 2 */}
                   <CardEvent
-                    src={
-                      "https://images.unsplash.com/photo-1605540436563-5bca919ae766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    src={"./images/ski.webp"}
                     alt={"Trail Masters"}
                     title={"Trail Masters"}
                     bgColor={"bg-blue-900"}
@@ -131,9 +122,7 @@ const Home = () => {
 
                   {/* Event 3 */}
                   <CardEvent
-                    src={
-                      "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    src={"./images/home-event-3.webp"}
                     alt={"Urban Sprint"}
                     title={"Urban Sprint"}
                     bgColor={"bg-green-900"}

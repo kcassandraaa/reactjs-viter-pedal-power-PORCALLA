@@ -16,9 +16,7 @@ const RoadBiking = () => {
             {/* Hero Section */}
             <CardHero
               bgColor={"bg-green-900"}
-              src={
-                "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80"
-              }
+              src={"./images/road-biking-banner.webp"}
               alt={"Road biking hero"}
               title={"Road Biking"}
               description={"Speed, endurance, and the freedom of the open road"}
@@ -38,9 +36,7 @@ const RoadBiking = () => {
                 <div className="grid md:grid-cols-3 gap-8">
                   {/* Route 1 */}
                   <CardRoute
-                    src={
-                      "https://images.unsplash.com/photo-1531045535792-b515d59c3d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    src={"./images/airplane.webp"}
                     alt={"Coastal Highway"}
                     title={"Coastal Highway"}
                     distance={"75 miles"}
@@ -50,9 +46,7 @@ const RoadBiking = () => {
 
                   {/* Route 2 */}
                   <CardRoute
-                    src={
-                      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    src={"./images/cake.webp"}
                     alt={"Mountain Pass"}
                     title={"Mountain Pass"}
                     distance={"42 miles"}
@@ -62,9 +56,7 @@ const RoadBiking = () => {
 
                   {/* Route 3 */}
                   <CardRoute
-                    src={
-                      "https://images.unsplash.com/photo-1511994298241-608e28f14fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
-                    }
+                    src={"./images/route-3.webp"}
                     alt={"Countryside Loop"}
                     title={"Countryside Loop"}
                     distance={"30 miles"}
